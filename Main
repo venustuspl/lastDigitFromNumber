@@ -1,0 +1,11 @@
+    import java.util.Scanner;
+
+public class lastNumber {
+    public static void main(String[] args) {
+        System.out.println("Podaj dowolną liczbę całkowitą:");
+        Scanner scanner = new Scanner(System.in);
+        int numberOne = scanner.nextInt();
+        System.out.println(numberOne % 10);
+    }
+
+}
